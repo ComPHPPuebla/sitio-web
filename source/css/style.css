@@ -53,6 +53,10 @@ h4 small {
     color: #888;
 }
 
+.panel-body .text-muted {
+    color: #aaa;
+}
+
 .footer-msg {
     line-height: 3.6em;
     display: inline-block;
