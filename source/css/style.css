@@ -60,6 +60,7 @@ h4 small {
 .footer-msg {
     line-height: 3.6em;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 footer {
