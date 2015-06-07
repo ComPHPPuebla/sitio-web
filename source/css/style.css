@@ -110,6 +110,10 @@ article {
     line-height: 40px !important;
 }
 
+.joindin {
+    margin-top: 1.3em;
+}
+
 @media (min-width: 980px) {
     .content {
         padding-top: 85px;

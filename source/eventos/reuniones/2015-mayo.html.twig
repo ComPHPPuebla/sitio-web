@@ -4,56 +4,47 @@ title: Reunión de mayo de 2015
 ---
 {% block content %}
     <div class="row">
-        <h1>Reunión de mayo de 2015</h1>
+        <h1>MeetuPHP de mayo de 2015</h1>
+        <div class="col-md-6">{% include 'venues/inventoteca.html.twig' %}</div>
         <div class="col-md-6">
-            {% include 'venues/inventoteca.html.twig' %}
-        </div>
-        <div class="col-md-6">
-            <br>
             <p>
-                En esta ocasión la reunión fue en la
-                <a href="http://www.inventoteca.com/">Inventoteca</a>.
+                Queremos agradecer a la <strong>Inventoteca</strong> por permitirnos hacer el MeetuPHP en sus
+                instalaciones.
             </p>
-            <p>Contamos con un total de 3 pláticas</p>
-            <p class="lead">¡No te pierdas las siguiente!</p>
+            <p>
+                <a href="http://www.inventoteca.com/" target="_blank">
+                    <img
+                        src="/images/sponsors/inventoteca.jpg"
+                        class="img-responsive img-rounded center-block"
+                        alt="Inventoteca">
+                </a>
+            </p>
         </div>
     </div>
-    <br>
+    <h2><span class="glyphicon glyphicon-comment"></span> Pláticas</h2>
     <div class="row well">
-        <div class="col-md-6">
+        <div class="col-md-6">{% include 'meetups/talks/program-to-an-interface.html.twig' %}</div>
+        <div class="col-md-6">{% include 'team/jmolivas.html.twig' %}</div>
+        <div class="col-md-8 col-md-offset-2">
             <div class="embed-responsive embed-responsive-4by3">
                 <iframe src="https://www.youtube.com/embed/ravSQDUfH-U" allowfullscreen></iframe>
             </div>
-            <a href="https://joind.in/talk/view/14608" target="_blank" class="btn btn-primary btn-lg btn-block">
+            <a href="https://joind.in/talk/view/14608" target="_blank" class="btn btn-primary btn-lg btn-block joindin">
                 <span class="glyphicon glyphicon-star"></span> Califica esta plática
             </a>
-        </div>
-        <div class="col-md-6">
-            <p class="lead text-center">Program to an interface, not an implementation. </p>
-            <p class="text-muted text-center">
-                En esta charla se intentará explicar por medio de un ejemplo de código el Design Principle de Program
-                to an 'interface', not an 'implementation.
-            </p>
-            {% include 'team/jmolivas.html.twig' %}
         </div>
     </div>
     <br>
     <div class="row well">
+        <div class="col-md-6">{% include 'meetups/talks/mvcdesdecero.html.twig' %}</div>
+        <div class="col-md-6">{% include 'team/moisesespindola.html.twig' %}</div>
         <div class="col-md-6">
             <div class="embed-responsive embed-responsive-4by3">
                 <iframe src="https://www.youtube.com/embed/QxUf7_H1qTU" allowfullscreen></iframe>
             </div>
-            <a href="https://joind.in/talk/view/14607" target="_blank" class="btn btn-primary btn-lg btn-block">
+            <a href="https://joind.in/talk/view/14607" target="_blank" class="btn btn-primary btn-lg btn-block joindin">
                 <span class="glyphicon glyphicon-star"></span> Califica esta plática
             </a>
-        </div>
-        <div class="col-md-6">
-            <p class="lead text-center">Creando la arquitectura MVC desde PHP</p>
-            <p class="text-muted text-center">
-                En la actualidad muchos desarrolladores web necesitamos de un patrón de diseño para poder realizar
-                proyectos más rápidamente, para ello existen los frameworks con arquitectura MVC.
-            </p>
-            {% include 'team/moisesespindola.html.twig' %}
         </div>
     </div>
     <br>
@@ -63,13 +54,7 @@ title: Reunión de mayo de 2015
                 <iframe src="https://www.youtube.com/embed/mSIKtkfLZd4" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-md-6">
-            <p class="lead text-center">Frameworks, ¿usarlos o no usarlos?</p>
-            <p class="text-muted text-center">
-                En esta mesa de discusión se expondrán ventajas y desventajas sobre frameworks, cuándo usarlos, como
-                elegirlos, etc.
-            </p>
-        </div>
+        <div class="col-md-6">{% include 'meetups/talks/frameworks.html.twig' %}</div>
     </div>
     <h2><span class="glyphicon glyphicon-picture"></span> Galería</h2>
     <div class="row">
