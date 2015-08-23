@@ -13,7 +13,12 @@
                 </a>
             </h4>
         </div>
-        <div id="collapseOne" class="talk panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div
+            id="collapseOne"
+            class="panel-collapse collapse"
+            role="tabpanel"
+            aria-labelledby="headingOne"
+        >
             <div class="panel-body">
                 {% include 'meetups/talks/front-end-componentes-reactjs.html.twig' %}
             </div>
@@ -22,14 +27,52 @@
     <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingTwo">
             <h4 class="panel-title">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                >
                     Cómo hackear un sitio Web
                 </a>
             </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div
+            id="collapseTwo"
+            class="panel-collapse collapse"
+            role="tabpanel"
+            aria-labelledby="headingTwo"
+        >
             <div class="panel-body">
                 {% include 'meetups/talks/hackear-un-sitio.html.twig' %}
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                >
+                    TDD 101 con PHPUnit
+                </a>
+            </h4>
+        </div>
+        <div
+            id="collapseThree"
+            class="panel-collapse collapse"
+            role="tabpanel"
+            aria-labelledby="headingThree"
+        >
+            <div class="panel-body">
+                {% include 'meetups/talks/intro-tdd-phpunit.html.twig' %}
             </div>
         </div>
     </div>
