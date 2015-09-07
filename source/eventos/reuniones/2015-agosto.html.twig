@@ -1,0 +1,93 @@
+---
+layout: page
+title: PHPSession de agosto de 2015
+---
+{% block content %}
+    <div class="row">
+        <h1>PHPSession de agosto de 2015</h1>
+        <div class="col-md-6">{% include 'venues/inventoteca.html.twig' %}</div>
+        <div class="col-md-6">
+            <p>
+                Queremos agradecer a la <strong>Inventoteca</strong> por permitirnos hacer
+                el PHPSession en sus instalaciones.
+            </p>
+            <p>
+                <a href="http://inventoteca.com/" target="_blank">
+                    <img
+                        src="/images/sponsors/inventoteca.jpg"
+                        class="img-responsive img-rounded center-block"
+                        alt="Inventoteca">
+                </a>
+            </p>
+        </div>
+    </div>
+    <h2><span class="glyphicon glyphicon-comment"></span> Pláticas</h2>
+    <div class="row well">
+        <div class="row">
+            <div class="col-md-6">{% include 'meetups/talks/hackear-un-sitio.html.twig' %}</div>
+            <div class="col-md-6">{% include 'team/pronuer.html.twig' %}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.youtube.com/embed/qSXQ5cQ1re4" allowfullscreen></iframe>
+                </div>
+                <a href="https://joind.in/15062" target="_blank" class="btn btn-primary btn-lg btn-block joindin">
+                    <span class="glyphicon glyphicon-star"></span> Califica esta plática
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row well">
+        <div class="row">
+            <div class="col-md-6">{% include 'meetups/talks/intro-tdd-phpunit.html.twig' %}</div>
+            <div class="col-md-6">{% include 'team/montealegreluis.html.twig' %}</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.youtube.com/embed/2GuYLle45bw" allowfullscreen></iframe>
+                </div>
+                <a href="https://joind.in/15063" target="_blank" class="btn btn-primary btn-lg btn-block joindin">
+                    <span class="glyphicon glyphicon-star"></span> Califica esta plática
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row well">
+        <div class="col-md-6">{% include 'meetups/talks/front-end-componentes-reactjs.html.twig' %}</div>
+        <div class="col-md-6">{% include 'team/jimmylagp.html.twig' %}</div>
+        <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe src="https://www.youtube.com/embed/qv2l8y16KfM" allowfullscreen></iframe>
+            </div>
+            <a href="https://joind.in/15050" target="_blank" class="btn btn-primary btn-lg btn-block joindin">
+                <span class="glyphicon glyphicon-star"></span> Califica esta plática
+            </a>
+        </div>
+    </div>
+    <h2><span class="glyphicon glyphicon-picture"></span> Galería</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/images/meetups/2015/agosto/agosto-1.png" class="img-responsive img-rounded center-block">
+        </div>
+        <div class="col-md-4">
+            <img src="/images/meetups/2015/agosto/agosto-2.png" class="img-responsive img-rounded center-block">
+        </div>
+        <div class="col-md-4">
+            <img src="/images/meetups/2015/agosto/agosto-3.png" class="img-responsive img-rounded center-block">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <a
+            href="https://www.facebook.com/media/set/?set=a.844711065635831.1073741853.390406104399665&type=3"
+            class="btn btn-block btn-primary btn-lg"
+            target="_blank"
+        >
+            <i class="fa fa-facebook"></i> Ver el album completo
+        </a>
+    </div>
+{% endblock %}
