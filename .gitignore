@@ -3,4 +3,5 @@
 /output_prod
 /bin
 /app/config/sculpin_site_prod.yml
+/vendor
 publish.sh
